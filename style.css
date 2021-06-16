@@ -1,0 +1,191 @@
+body{
+    background-color: hsla(244, 38%, 7%, 1);
+    font-size: 15px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 120px;
+}
+
+.card-description{
+    width: 575px;
+    min-height: 457px;
+    background-color: hsla(244, 38%, 16%, 1);
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.image{
+    width: 576px;
+    height: 457px;
+
+    background: linear-gradient(179.05deg, rgba(170, 92, 219, 0.5) 49.86%, rgba(255, 255, 255, 0) 222.54%), url(/images/image-header-desktop.jpg);
+    border-radius: 0px 30px 30px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-heading{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+    color: hsl(0, 0%, 100%);
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.insigths{
+    color: hsl(277, 64%, 61%);
+    margin: unset;
+}
+
+.main-paragraph{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.div-stats{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: hsl(0, 0%, 100%);
+}
+
+.stat-heading{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: x-small;
+}
+
+@media screen and (max-width: 680px){
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-block-start: 120px;
+        margin-block-end: 120px;
+    }
+
+    .image{   
+        max-width: 375px;
+        max-height: 275px;
+
+        background: linear-gradient(179.05deg, rgba(170, 92, 219, 0.5) 49.86%, rgba(255, 255, 255, 0) 222.54%), url(/images/image-header-mobile.jpg);
+        border-radius: 30px 30px 0px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-description{
+        max-width: 375px;
+        max-height: 875px;
+        
+        background-color: hsla(244, 38%, 16%, 1);
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .div-stats{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-block-start: 120px;
+        margin-block-end: 120px;
+    }
+
+    .image{   
+        max-width: 300px;
+        max-height: 200px;
+
+        background: linear-gradient(179.05deg, rgba(170, 92, 219, 0.5) 49.86%, rgba(255, 255, 255, 0) 222.54%), url(/images/image-header-mobile.jpg);
+        border-radius: 30px 30px 0px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-description{
+        max-width: 300px;
+        max-height: 875px;
+        
+        background-color: hsla(244, 38%, 16%, 1);
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .main-heading{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    
+        color: hsl(0, 0%, 100%);
+    
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+
+    .main-paragraph{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    .div-stats{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
