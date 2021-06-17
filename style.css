@@ -84,6 +84,12 @@ body{
     font-size: x-small;
 }
 
+footer{
+    margin-block-start: 50px;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
 @media screen and (max-width: 680px){
     .card{
         display: flex;
