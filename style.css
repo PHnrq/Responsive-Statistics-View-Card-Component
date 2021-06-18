@@ -14,7 +14,7 @@ body{
     width: 575px;
     min-height: 457px;
     background-color: hsla(244, 38%, 16%, 1);
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 10px 0px 0px 10px;
 
 }
 
@@ -23,7 +23,7 @@ body{
     height: 457px;
 
     background: linear-gradient(179.05deg, rgba(170, 92, 219, 0.5) 49.86%, rgba(255, 255, 255, 0) 222.54%), url(images//image-header-desktop.jpg);
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 10px 10px 0px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -105,7 +105,7 @@ footer{
         max-height: 275px;
 
         background: linear-gradient(179.05deg, rgba(170, 92, 219, 0.5) 49.86%, rgba(255, 255, 255, 0) 222.54%), url("https://phnrq.github.io/Responsive-Statistics-View-Card-Component/images/image-header-desktop.jpg");
-        border-radius: 30px 30px 0px 0px;
+        border-radius: 10px 10px 0px 0px;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -115,7 +115,7 @@ footer{
         max-height: 875px;
         
         background-color: hsla(244, 38%, 16%, 1);
-        border-radius: 0px 0px 30px 30px;
+        border-radius: 0px 0px 10px 10px;
     }
 
     .div-stats{
@@ -146,7 +146,7 @@ footer{
         max-height: 200px;
 
         background: linear-gradient(179.05deg, rgba(170, 92, 219, 0.5) 49.86%, rgba(255, 255, 255, 0) 222.54%), url(images//image-header-mobile.jpg);
-        border-radius: 30px 30px 0px 0px;
+        border-radius: 10px 10px 0px 0px;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -156,7 +156,7 @@ footer{
         max-height: 875px;
         
         background-color: hsla(244, 38%, 16%, 1);
-        border-radius: 0px 0px 30px 30px;
+        border-radius: 0px 0px 10px 10px;
     }
 
     .main-heading{
